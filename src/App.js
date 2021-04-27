@@ -3,6 +3,9 @@ import './App.css';
 import {Container} from "react-bootstrap";
 import Navbart from "./components/Navbar";
 import Explorez from "./components/Explorez";
+import Part3 from "./components/Part3";
+
+
 
 import Partt from "./components/Part2";
 
@@ -34,7 +37,7 @@ function App() {
 
       {/***************/}
       <div className="Container">
-      <h1>Explorez les environs</h1> 
+      <h5>Explorez les environs</h5> 
       <div className="grapart1"><Explorez  explor ={environs} /></div>
       
       </div>
@@ -51,6 +54,10 @@ function App() {
      
 
        {/***************/}
+
+<Part3 />
+{/***************/}
+
     </div>
   );
 }

@@ -25,3 +25,64 @@
     flex-wrap: wrap;
     justify-content: space-around;
 }
+/********************************Navbar*************************************/
+
+.element.style {
+    --background-color-hex: #222222;
+    --text-color-hex: #A3A3A3;
+}
+.gf4ex9:hover{
+    color:#A3A3A3CC;
+}
+._gf4ex9{
+   
+    color:#A3A3A3;;
+    text-decoration: none;
+margin-left: 20rem;
+padding-top: 1rem;
+    
+}
+._gf4ex9of{
+   
+    color:#A3A3A3;;
+    text-decoration: none;    
+}
+.gftop{
+    background-color: #222222;
+    width: 100%;
+    height: 3.5rem;
+}
+.logo{
+    width: 10rem;
+    height: 5rem;
+}
+h4{
+    font-size: 16px;
+}
+.img-glob{
+background-image: url('https://a0.muscache.com/im/pictures/b65bef33-07be-4c55-b613-bb990193e8f6.jpg?im_q=highq&im_w=720');
+background-position: bottom;
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+h1{
+    font-size: 20px;
+}
+.butntop{
+    margin-left: 10rem;
+    padding-bottom: 20rem;
+    margin-top: 10rem;
+}
+.titretop{
+    font-size: 3rem;
+    font-weight: bolder;
+}
+.imgpart{
+   width: 1100px;
+   height: 400px;
+   margin-top: 5rem;
+   margin-left: 5rem;
+   border-radius: 20px;
+  
+}
