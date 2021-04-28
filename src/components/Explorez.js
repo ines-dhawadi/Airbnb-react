@@ -1,5 +1,5 @@
 import React from 'react'
-import "react-bootstrap";
+import {Row,Col} from "react-bootstrap";
 import '../components/style.css';
 
 
@@ -11,10 +11,12 @@ function Explorez(props) {
     <div>
         
 <div className="part1">
-    <img className="imgpart1"  src={el.imge} />
+  <Row><Col md={1}> <img className="imgpart1"  src={el.imge} /></Col>
+   <Col md={2}><h4 className="titrexp">{el.name}</h4>
+</Col></Row>
+  
 
-    <h4 className="ml-2">{el.name}</h4>
-
+    
 </div>
 
     </div>)

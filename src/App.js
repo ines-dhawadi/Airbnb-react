@@ -44,7 +44,7 @@ function App() {
       <Navbart />
 
       {/***************/}
-      <div className="Container mt-5">
+      <div className="container d-flex flex-wrap mt-5">
       <h5>Explorez les environs</h5> 
       <div className="grapart1"><Explorez  explor ={environs} /></div>
       
@@ -53,7 +53,7 @@ function App() {
 
        {/***************/}
          {/***************/}
-      <div className="Container">
+      <div className="container">
       <h1>Chez vous, partout</h1> 
       <div className="grapart2">
         <Partt tt={partout} /></div>

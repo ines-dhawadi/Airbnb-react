@@ -5,22 +5,26 @@ body {
     color: #484848;
 }
 
-.part1{
-    display: flex;
+
+.titrexp{
+    font-size: 12px;
+    margin-left: 6rem;
+    margin-right: -1rem;
+   
+    
 }
 .grapart1{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+   justify-content: space-between;
 }
 .imgpart1{
     width: 64px;
     height: 64px;
     border-radius: 8px;
-    margin-left: 9rem;
-    margin-right: 1rem;
+ 
     margin-bottom: 3rem;
-    justify-content: center;
+ 
 }
 .imgpart2{
     width: 266px;
