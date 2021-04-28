@@ -1,0 +1,22 @@
+body {
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+    font-size: 14px;
+    line-height: 1.43;
+    color: #484848;
+}
+
+.troicard{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3rem;
+}
+.deutitr{
+    margin-top: 10rem;
+   
+}
+.deutitr>h1{
+    font-size: 2rem;
+}
+.deutitr>h5{
+    font-size: 1.5rem;
+}

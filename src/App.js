@@ -1,9 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
-import {Container} from "react-bootstrap";
+import {} from "react-bootstrap";
 import Navbart from "./components/Navbar";
 import Explorez from "./components/Explorez";
 import Part3 from "./components/Part3";
+import Part4 from "./components/Part4";
+import Footer from "./components/Footer";
 
 
 
@@ -30,13 +32,19 @@ const partout = [
   {imgp:'https://a0.muscache.com/im/pictures/10a638e1-6aff-4313-8033-1275cec83987.jpg?im_w=720',desc:'Animaux de compagnie acceptés'}
 ]
 
+const activités = [
+  {imgd:'https://a0.muscache.com/im/pictures/247a1ea3-946d-4eb8-a6ab-e8b9a66846f4.jpg?im_w=720',titr:'Collection à la  Envies d évasion',info:'Voyagez depuis chez vous grâce aux expériences ligne.'},
+  {imgd:'https://a0.muscache.com/im/pictures/a6b08861-feb8-4a01-a76d-b33d2867b441.jpg?im_w=720',titr:'Expériences en ligne',info:'Activités interactives en direct, animées par hôtes.'},
+  {imgd:'https://a0.muscache.com/im/pictures/ad109d56-2421-40cd-98e6-e114160dc85b.jpg?im_w=720',titr:'Expériences',info:'Prenez part à des activités locales, où que vous soyez.'}
+]
+
 function App() {
   return (
     <div className="App">
       <Navbart />
 
       {/***************/}
-      <div className="Container">
+      <div className="Container mt-5">
       <h5>Explorez les environs</h5> 
       <div className="grapart1"><Explorez  explor ={environs} /></div>
       
@@ -57,7 +65,18 @@ function App() {
 
 <Part3 />
 {/***************/}
+<div className="container deutitr">
+  <h1>Découvrez les expériences</h1>
+  <h5>Des activités uniques avec des experts locaux, en personne ou en ligne.</h5>
+  </div>
+<div className="container troicard">
+  
+  <Part4  par =  {activités}    />
+</div>
 
+
+{/******************* */}
+<Footer />
     </div>
   );
 }
